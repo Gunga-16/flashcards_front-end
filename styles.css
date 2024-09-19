@@ -4,6 +4,8 @@
 :root {
     --cor-de-fundo: #004aad;
     --cor-do-cartao: #ffffff;
+    --cor-texto-footer: #ffffff;
+    --cor-fundo-footer: #000000;
     --cor-titulo: #000000;
     --cor-texto-cartao: #000000;
     --cor-botao-primario: #ffffff;
@@ -15,6 +17,10 @@ body {
 }
 
 footer {
+    background-color: var(--cor-fundo-footer);
+    color: var(--cor-texto-footer);
+    text-align: center;
+    width: 50%;
     position: fixed;
     bottom: 0;
     font-family: "Arimo", sans-serif;
