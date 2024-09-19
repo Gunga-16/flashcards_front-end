@@ -20,7 +20,7 @@ footer {
     background-color: var(--cor-fundo-footer);
     color: var(--cor-texto-footer);
     text-align: center;
-    width: 50%;
+    font-size: 100px;
     position: fixed;
     bottom: 0;
     font-family: "Arimo", sans-serif;
