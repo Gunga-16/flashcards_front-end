@@ -30,4 +30,7 @@ footer {
     width: 100%;
     padding: 20px;
     font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
