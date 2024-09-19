@@ -1,3 +1,21 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&display=swap');
+
+:root {
+    --cor-de-fundo: #004aad;
+    --cor-do-cartao: #ffffff;
+    --cor-titulo: #000000;
+    --cor-texto-cartao: #000000;
+    --cor-botao-primario: #ffffff;
+    --cor-botao-secundario: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-family: "Arimo", sans-serif;
 }
