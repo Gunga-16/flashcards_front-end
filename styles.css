@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --cor-de-fundo: #004aad;
     --cor-do-cartao: #ffffff;
@@ -20,8 +25,8 @@ footer {
     background-color: var(--cor-fundo-footer);
     color: var(--cor-texto-footer);
     text-align: center;
-    font-size: 10px;
-    position: absolute;
+    font-size: 50px;
+    position: fixed;
     bottom: 0;
     font-family: "Arimo", sans-serif;
 }
