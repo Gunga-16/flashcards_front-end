@@ -1,3 +1,11 @@
+// ESTRUTURA
+
+// criaCartao('categoria', 
+//            'subcategoria',
+//            'pergunta',
+//            'resposta',
+//            'exemplo');
+
 
 criaCartao('JavaScript', 'Fundamentos', 'O que é JavaScript?', 'JavaScript é uma linguagem de programação usada para criar comportamentos dinâmicos em páginas web.', 'Exemplo: <script>let mensagem = "Olá, Mundo!"; console.log(mensagem);</script>');
 
