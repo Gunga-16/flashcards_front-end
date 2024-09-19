@@ -21,7 +21,7 @@ footer {
     color: var(--cor-texto-footer);
     text-align: center;
     font-size: 100px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     font-family: "Arimo", sans-serif;
 }
