@@ -29,5 +29,14 @@ function criaCartao(categoria, subcategoria, pergunta, resposta, exemplo) {
     
     `;
 
+    let respostaVisivel = false;
+
+    function virarCartao (){
+        respostaVisivel =!respostaVisivel;
+        cartao.classList.toggle('active', respostaVisivel);
+    }
+
+    cartao.addEventListener('click', virarCartao);
+
     container.appendChild(cartao);
 }
