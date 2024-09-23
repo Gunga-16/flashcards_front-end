@@ -54,7 +54,7 @@ footer {
     flex-basis: calc(50% - 5rem);
 }
 
-.conteudo-cartao button{
+.conteudo-cartao h3{
     border: 1px solid var(--destaque);
     position: absolute;
     padding: 0.5rem;
