@@ -15,6 +15,7 @@
     --cor-texto-cartao: #000000;
     --cor-botao-primario: #ffffff;
     --cor-botao-secundario: #000000;
+    --destaque: red;
 }
 
 body {
@@ -51,4 +52,10 @@ footer {
     margin: 1rem;
     flex-grow: 1;
     flex-basis: calc(50% - 5rem);
+}
+
+.conteudo-cartao h3{
+    border: 1px solid var(--destaque);
+    position: absolute;
+    padding: 0.5rem;
 }
