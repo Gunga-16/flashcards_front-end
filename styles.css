@@ -34,3 +34,15 @@ footer {
     font-weight: 400;
     font-style: normal;
 }
+
+#container {
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.conteudo-carta0 {
+    background-color: var(--cor-do-cartao);
+}
