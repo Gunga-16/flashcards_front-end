@@ -50,6 +50,7 @@ footer {
 
 .cartao {
     margin: 1rem;
+    padding: 1rem;
     flex-grow: 1;
     flex-basis: calc(25% - 6rem);
 }
@@ -57,10 +58,10 @@ footer {
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
     position: absolute;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.6rem;
     backface-visibility: hidden;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
 }
 
 .conteudo-cartao p{
