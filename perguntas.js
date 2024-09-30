@@ -61,7 +61,7 @@ criaCartao('HTML', 'Formulários', 'Como criar um checkbox?', 'Use a tag input c
 
 criaCartao('HTML', 'Links', 'Como criar um link para outra página?', 'Use a tag "a" com o atributo "href".', 'Exemplo: <a href="pagina.html">Clique aqui</a>');
 
-criaCartao('HTML', 'Links', 'Como abrir um link em uma nova aba?', 'Adicione o atributo "target="_blank"" ao link.', 'Exemplo: <a href="pagina.html" target="_blank">Abrir em nova aba</a>');
+criaCartao('HTML', 'Links', 'Como abrir um link em uma nova Faba?', 'Adicione o atributo "target="_blank"" ao link.', 'Exemplo: <a href="pagina.html" target="_blank">Abrir em nova aba</a>');
 
 criaCartao('HTML', 'Imagens', 'Como inserir uma imagem?', 'Use a tag img com o atributo "src".', 'Exemplo: <img src="imagem.jpg" alt="Descrição da imagem">');
 
@@ -77,13 +77,13 @@ criaCartao('HTML', 'Listas', 'Como criar uma lista não ordenada?', 'Use a tag u
 
 criaCartao('HTML', 'Semântica', 'O que é uma tag semântica em HTML?', 'Uma tag semântica define o propósito de seu conteúdo.', 'Exemplo: <header>, <footer>, <article>, <section>');
 
-criaCartao('HTML', 'Semântica', 'Qual é a função da tag <header>?', 'A tag <header> define o cabeçalho de uma página ou seção.', 'Exemplo: <header><h1>Título da Página</h1></header>');
+criaCartao('HTML', 'Semântica', 'Qual é a função da tag header?', 'A tag header define o cabeçalho de uma página ou seção.', 'Exemplo: <header><h1>Título da Página</h1></header>');
 
 criaCartao('HTML', 'Semântica', 'Qual é a função da tag footer?', 'A tag footer define o rodapé de uma página ou seção.', 'Exemplo: <footer><p>Todos os direitos reservados</p></footer>');
 
-criaCartao('HTML', 'Mídia', 'Como incorporar um vídeo no HTML?', 'Use a tag <video> com os atributos "src" e "controls".', 'Exemplo: <video src="video.mp4" controls></video>');
+criaCartao('HTML', 'Mídia', 'Como incorporar um vídeo no HTML?', 'Use a tag video com os atributos "src" e "controls".', 'Exemplo: <video src="video.mp4" controls></video>');
 
-criaCartao('HTML', 'Mídia', 'Como incorporar áudio no HTML?', 'Use a tag <audio> com os atributos "src" e "controls".', 'Exemplo: <audio src="audio.mp3" controls></audio>');
+criaCartao('HTML', 'Mídia', 'Como incorporar áudio no HTML?', 'Use a tag audio com os atributos "src" e "controls".', 'Exemplo: <audio src="audio.mp3" controls></audio>');
 
 criaCartao('HTML', 'Divisões', 'Qual é a função da tag div?', 'A tag div é usada como contêiner genérico para agrupar conteúdo.', 'Exemplo: <div><p>Conteúdo dentro da div</p></div>');
 
