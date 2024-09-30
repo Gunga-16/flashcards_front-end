@@ -39,6 +39,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
+    font-family: "Bree", sans-serif;
 
 }
 
