@@ -9,7 +9,8 @@
 
 :root {
     --cor-de-fundo: #004aad;
-    --cor-do-cartao: #ffffff;
+    --cor-do-cartao-frente: #ffffff;
+    --cor-do-cartao-verso: black;
     --cor-texto-footer: #ffffff;
     --cor-fundo-footer: #000000;
     --cor-titulo: #000000;
@@ -17,21 +18,11 @@
     --cor-botao-primario: #ffffff;
     --cor-botao-secundario: #000000;
     --destaque: red;
+
 }
 
 body {
     background-color: var(--cor-de-fundo);
-}
-
-footer {
-    background-color: var(--cor-fundo-footer);
-    color: var(--cor-texto-footer);
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    font-family: "Arimo", sans-serif;
 }
 
 #container {
@@ -43,29 +34,71 @@ footer {
 }
 
 .conteudo-cartao {
-    background-color: var(--cor-do-cartao);
+    background-color: var(--cor-do-cartao-frente);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+
 }
 
 .cartao {
     margin: 1rem;
-    padding: 1rem;
+    padding: 20rem;
+    height: 20rem;
     flex-grow: 1;
     flex-basis: calc(25% - 6rem);
 }
 
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
+    text-align: left;
     position: absolute;
     padding: 0.5rem;
     margin: 0.6rem;
     backface-visibility: hidden;
-    border-radius: 0.6rem;
+    border-radius: 0.5rem;
 }
 
 .conteudo-cartao p{
     margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    font-size: 1.4vw;
+}
+
+.resposta-cartao p {
+    color: var(--cor-do-cartao-verso);
+    font-weight: 700;
 }
 
 .cartao.active .conteudo-cartao {
     transform: rotateY('180deg');
+}
+
+.pergunta-cartao, 
+.resposta-cartao {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.resposta-cartao {
+    transform: rotateY('180deg');
+    background-color: var(--destaque);
+    border: 4px solid var(--cor-do-cartao-verso);
+
+}
+
+footer {
+    background-color: var(--cor-fundo-footer);
+    color: var(--cor-texto-footer);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: "Arimo", sans-serif;
 }
