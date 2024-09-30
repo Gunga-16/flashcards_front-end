@@ -71,7 +71,6 @@ body {
 }
 
 .resposta-cartao p {
-    justify-content: center;
     color: white;
     font-weight: 700;
 }
@@ -82,6 +81,7 @@ body {
 
 .pergunta-cartao, 
 .resposta-cartao {
+    justify-content: center;
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
