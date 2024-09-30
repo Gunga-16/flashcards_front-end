@@ -16,7 +16,7 @@ function criaCartao(categoria, subcategoria, pergunta, resposta, exemplo) {
 
     <div class="resposta-cartao">
         <p>${resposta}</p>
-        <pre>${exemplo}</pre>
+        
     </div>
 
 
