@@ -57,10 +57,10 @@ footer {
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
     position: absolute;
-    padding: 0.5rem;
-    margin: 0.6rem;
+    padding: 1rem;
+    margin: 1rem;
     backface-visibility: hidden;
-    border-radius: 0.6rem;
+    border-radius: 1rem;
 }
 
 .conteudo-cartao p{
