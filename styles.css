@@ -68,7 +68,7 @@ body {
 }
 
 .resposta-cartao p {
-    color: var(--cor-do-cartao-verso);
+    color: white;
     font-weight: 700;
 }
 
@@ -87,8 +87,8 @@ body {
 
 .resposta-cartao {
     transform: rotateY('180deg');
-    background-color: var(--destaque);
-    border: 4px solid var(--cor-do-cartao-verso);
+    background-color: var(--cor-do-cartao-verso);
+    border: 4px solid white;
 
 }
 
