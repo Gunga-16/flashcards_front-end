@@ -10,17 +10,18 @@ function criaCartao(categoria, subcategoria, pergunta, resposta, exemplo) {
 
     <div class="conteudo-cartao">
 
-    <h3>${categoria + " - " + subcategoria}</h3>
+        <h3>${categoria + " - " + subcategoria}</h3>
 
-    <div class="pergunta-cartao"><p>${pergunta}</p></div>
+        <div class="pergunta-cartao"><p>${pergunta}</p></div>
 
-    <div class="resposta-cartao">
-        <p>${resposta}</p>
-        
-    </div>
+        <div class="resposta-cartao">
+            <p>${resposta}</p>
+        </div>
 
-
-
+        <div class="exemplo-cartao">
+            <h4>Exemplo de código:</h4>
+            <pre><code>${exemplo}</code></pre>
+        </div>
 
     </div>
     
