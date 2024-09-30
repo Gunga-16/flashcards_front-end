@@ -48,7 +48,7 @@ body {
 
 .cartao {
     margin: 1rem;
-    height: 40rem;
+    height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
@@ -110,28 +110,3 @@ footer {
     font-family: "Arimo", sans-serif;
 }
 
-/* Estilização para blocos de código */
-pre, code {
-    font-family: "Arimo", monospace;
-    background-color: #f4f4f4; /* fundo claro para contraste */
-    color: #333; /* texto em um tom escuro */
-    border-radius: 8px; /* cantos arredondados */
-    padding: 1rem; /* espaçamento interno */
-    border: 1px solid #ddd; /* borda sutil */
-    font-size: 1.2vw; /* tamanho relativo à viewport */
-    line-height: 1.5; /* espaçamento entre linhas */
-    overflow-x: auto; /* rolagem horizontal se o código for muito longo */
-    white-space: pre-wrap; /* permite quebra de linha no código */
-    word-wrap: break-word; /* ajusta as palavras que são muito longas */
-}
-
-pre {
-    margin: 2rem 0; /* espaçamento superior e inferior */
-}
-
-code {
-    background-color: #eaeaea; /* leve variação para o código inline */
-    padding: 0.2rem 0.4rem; /* espaçamento interno menor */
-    border-radius: 4px; /* bordas suaves */
-    font-size: 1vw;
-}

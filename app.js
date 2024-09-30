@@ -1,7 +1,7 @@
 console.log('Olá mundo');
 
 
-function criaCartao(categoria, subcategoria, pergunta, resposta, exemplo) {
+function criaCartao(categoria, subcategoria, pergunta, resposta) {
 
     let container = document.getElementById('container');
     let cartao = document.createElement('article');
@@ -16,11 +16,6 @@ function criaCartao(categoria, subcategoria, pergunta, resposta, exemplo) {
 
         <div class="resposta-cartao">
             <p>${resposta}</p>
-            
-            <div class="exemplo-cartao">
-                <p>Exemplo de código:</p>
-                <pre><code>${exemplo}</code></pre>
-            </div>
         </div>
 
 
