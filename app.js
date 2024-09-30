@@ -12,22 +12,18 @@ function criaCartao(categoria, subcategoria, pergunta, resposta) {
 
     <h3>${categoria + " - " + subcategoria} </h3>
 
-    <div class="pergunta-cartao">
-        <p>${pergunta}</p>
-    </div>
+    <p>${pergunta}</p>
 
-    <div class="resposta-cartao">
-        <p>${resposta}</p>
-    </div>
-
+    <p>${resposta}</p>
+    
     </div>
     
     `;
 
     let respostaVisivel = false;
 
-    function virarCartao (){
-        respostaVisivel =!respostaVisivel;
+    function virarCartao() {
+        respostaVisivel = !respostaVisivel;
         cartao.classList.toggle('active', respostaVisivel);
     }
 
