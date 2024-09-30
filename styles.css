@@ -42,6 +42,7 @@ body {
     transition: transform 300ms ease-in-out;
     font-family: "Bree", sans-serif;
     font-weight: 700;
+    border-radius: 10px;
 
 }
 
