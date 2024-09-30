@@ -52,7 +52,7 @@ body {
 }
 
 .conteudo-cartao h3{
-    border: 2px solid var(--destaque);
+    border: 4px solid var(--destaque);
     text-align: left;
     position: absolute;
     padding: 0.5rem;
