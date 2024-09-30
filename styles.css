@@ -17,7 +17,7 @@
     --cor-texto-cartao: #000000;
     --cor-botao-primario: #ffffff;
     --cor-botao-secundario: #000000;
-    --destaque: red;
+    --destaque: black;
 
 }
 
@@ -35,6 +35,7 @@ body {
 
 .conteudo-cartao {
     background-color: var(--cor-do-cartao-frente);
+    border: 4px solid var(--destaque);
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
