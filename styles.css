@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&display=swap');
 
 
-
+* {
+    margin: 0;
+}
 :root {
     --cor-de-fundo: #004aad;
     --cor-do-cartao: #ffffff;
