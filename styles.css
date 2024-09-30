@@ -92,6 +92,7 @@ body {
     transform: rotateY(180deg);
     background-color: var(--cor-do-cartao-verso);
     border: 4px solid white;
+    border-radius: 10px;
 
 }
 
