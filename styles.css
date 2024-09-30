@@ -81,9 +81,6 @@ body {
 
 .pergunta-cartao, 
 .resposta-cartao {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
@@ -98,6 +95,9 @@ body {
     border-radius: 10px;
 
 }
+
+
+
 
 footer {
     background-color: var(--cor-fundo-footer);
