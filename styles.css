@@ -26,12 +26,11 @@ footer {
     background-color: var(--cor-fundo-footer);
     color: var(--cor-texto-footer);
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-
+    width: 100%;
     padding: 20px;
     font-family: "Arimo", sans-serif;
-   
     font-weight: 400;
     font-style: normal;
 }
