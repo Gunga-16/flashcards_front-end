@@ -49,43 +49,43 @@ criaCartao('JavaScript', 'Condicionais', 'Qual a diferença entre "==" e "==="?'
 
 criaCartao('HTML', 'Estrutura', 'O que é uma tag HTML?', 'Uma tag HTML define um elemento em um documento HTML.', 'Exemplo: <p>Este é um parágrafo.</p>');
 
-criaCartao('HTML', 'Estrutura', 'Qual é a função da tag <head>?', 'A tag <head> contém metadados sobre o documento, como título, links e scripts.', 'Exemplo: <head><title>Minha Página</title></head>');
+criaCartao('HTML', 'Estrutura', 'Qual é a função da tag head?', 'A tag head contém metadados sobre o documento, como título, links e scripts.', 'Exemplo: <head><title>Minha Página</title></head>');
 
-criaCartao('HTML', 'Estrutura', 'O que é a tag <body>?', 'A tag <body> contém todo o conteúdo visível da página.', 'Exemplo: <body><h1>Título</h1><p>Conteúdo da página</p></body>');
+criaCartao('HTML', 'Estrutura', 'O que é a tag body?', 'A tag body contém todo o conteúdo visível da página.', 'Exemplo: <body><h1>Título</h1><p>Conteúdo da página</p></body>');
 
-criaCartao('HTML', 'Formulários', 'Como criar um botão de envio em um formulário?', 'Use a tag <button> ou <input type="submit">.', 'Exemplo: <form><button type="submit">Enviar</button></form>');
+criaCartao('HTML', 'Formulários', 'Como criar um botão de envio em um formulário?', 'Use a tag button ou input com type igual a submit.', 'Exemplo: <form><button type="submit">Enviar</button></form>');
 
-criaCartao('HTML', 'Formulários', 'Como criar um campo de seleção?', 'Use a tag <select> com várias opções.', 'Exemplo: <select><option>Opção 1</option><option>Opção 2</option></select>');
+criaCartao('HTML', 'Formulários', 'Como criar um campo de seleção?', 'Use a tag select com várias opções.', 'Exemplo: <select><option>Opção 1</option><option>Opção 2</option></select>');
 
-criaCartao('HTML', 'Formulários', 'Como criar um checkbox?', 'Use a tag <input type="checkbox">.', 'Exemplo: <input type="checkbox" name="aceito"> Aceito os termos');
+criaCartao('HTML', 'Formulários', 'Como criar um checkbox?', 'Use a tag input com type igual a checkbox.', 'Exemplo: <input type="checkbox" name="aceito"> Aceito os termos');
 
-criaCartao('HTML', 'Links', 'Como criar um link para outra página?', 'Use a tag <a> com o atributo "href".', 'Exemplo: <a href="pagina.html">Clique aqui</a>');
+criaCartao('HTML', 'Links', 'Como criar um link para outra página?', 'Use a tag "a" com o atributo "href".', 'Exemplo: <a href="pagina.html">Clique aqui</a>');
 
 criaCartao('HTML', 'Links', 'Como abrir um link em uma nova aba?', 'Adicione o atributo "target="_blank"" ao link.', 'Exemplo: <a href="pagina.html" target="_blank">Abrir em nova aba</a>');
 
-criaCartao('HTML', 'Imagens', 'Como inserir uma imagem?', 'Use a tag <img> com o atributo "src".', 'Exemplo: <img src="imagem.jpg" alt="Descrição da imagem">');
+criaCartao('HTML', 'Imagens', 'Como inserir uma imagem?', 'Use a tag img com o atributo "src".', 'Exemplo: <img src="imagem.jpg" alt="Descrição da imagem">');
 
 criaCartao('HTML', 'Imagens', 'Como adicionar uma legenda a uma imagem?', 'Use a tag <figcaption> dentro de <figure>.', 'Exemplo: <figure><img src="imagem.jpg" alt="Descrição"><figcaption>Legenda da imagem</figcaption></figure>');
 
-criaCartao('HTML', 'Tabelas', 'Como criar uma tabela?', 'Use as tags <table>, <tr>, <td> e <th>.', 'Exemplo: <table><tr><th>Cabeçalho</th></tr><tr><td>Dados</td></tr></table>');
+criaCartao('HTML', 'Tabelas', 'Como criar uma tabela?', 'Use as tags table, tr, td e th.', 'Exemplo: <table><tr><th>Cabeçalho</th></tr><tr><td>Dados</td></tr></table>');
 
 criaCartao('HTML', 'Tabelas', 'Como mesclar colunas em uma tabela?', 'Use o atributo "colspan" na tag <td> ou <th>.', 'Exemplo: <td colspan="2">Colunas mescladas</td>');
 
-criaCartao('HTML', 'Listas', 'Como criar uma lista ordenada?', 'Use a tag <ol> com itens <li>.', 'Exemplo: <ol><li>Item 1</li><li>Item 2</li></ol>');
+criaCartao('HTML', 'Listas', 'Como criar uma lista ordenada?', 'Use a tag ol com itens li.', 'Exemplo: <ol><li>Item 1</li><li>Item 2</li></ol>');
 
-criaCartao('HTML', 'Listas', 'Como criar uma lista não ordenada?', 'Use a tag <ul> com itens <li>.', 'Exemplo: <ul><li>Item 1</li><li>Item 2</li></ul>');
+criaCartao('HTML', 'Listas', 'Como criar uma lista não ordenada?', 'Use a tag ul com itens li.', 'Exemplo: <ul><li>Item 1</li><li>Item 2</li></ul>');
 
 criaCartao('HTML', 'Semântica', 'O que é uma tag semântica em HTML?', 'Uma tag semântica define o propósito de seu conteúdo.', 'Exemplo: <header>, <footer>, <article>, <section>');
 
 criaCartao('HTML', 'Semântica', 'Qual é a função da tag <header>?', 'A tag <header> define o cabeçalho de uma página ou seção.', 'Exemplo: <header><h1>Título da Página</h1></header>');
 
-criaCartao('HTML', 'Semântica', 'Qual é a função da tag <footer>?', 'A tag <footer> define o rodapé de uma página ou seção.', 'Exemplo: <footer><p>Todos os direitos reservados</p></footer>');
+criaCartao('HTML', 'Semântica', 'Qual é a função da tag footer?', 'A tag footer define o rodapé de uma página ou seção.', 'Exemplo: <footer><p>Todos os direitos reservados</p></footer>');
 
 criaCartao('HTML', 'Mídia', 'Como incorporar um vídeo no HTML?', 'Use a tag <video> com os atributos "src" e "controls".', 'Exemplo: <video src="video.mp4" controls></video>');
 
 criaCartao('HTML', 'Mídia', 'Como incorporar áudio no HTML?', 'Use a tag <audio> com os atributos "src" e "controls".', 'Exemplo: <audio src="audio.mp3" controls></audio>');
 
-criaCartao('HTML', 'Divisões', 'Qual é a função da tag <div>?', 'A tag <div> é usada como contêiner genérico para agrupar conteúdo.', 'Exemplo: <div><p>Conteúdo dentro da div</p></div>');
+criaCartao('HTML', 'Divisões', 'Qual é a função da tag div?', 'A tag div é usada como contêiner genérico para agrupar conteúdo.', 'Exemplo: <div><p>Conteúdo dentro da div</p></div>');
 
 criaCartao('CSS', 'Seletores', 'O que é um seletor de classe em CSS?', 'Um seletor de classe é usado para selecionar elementos com um atributo de classe específico.', 'Exemplo: .classe { color: blue; }');
 
