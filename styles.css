@@ -71,6 +71,7 @@ body {
 }
 
 .resposta-cartao p {
+    justify-content: center;
     color: white;
     font-weight: 700;
 }
