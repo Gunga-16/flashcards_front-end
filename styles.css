@@ -51,7 +51,7 @@ footer {
 .cartao {
     margin: 1rem;
     flex-grow: 1;
-    flex-basis: calc(50% - 8rem);
+    flex-basis: calc(25% - 6rem);
 }
 
 .conteudo-cartao h3{
