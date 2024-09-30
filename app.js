@@ -10,12 +10,12 @@ function criaCartao(categoria, subcategoria, pergunta, resposta) {
 
     <div class="conteudo-cartao">
 
-    <h3>${categoria + " - " + subcategoria} </h3>
+    <h3>${categoria + " - " + subcategoria}</h3>
 
     <p>${pergunta}</p>
 
     <p>${resposta}</p>
-    
+
     </div>
     
     `;
