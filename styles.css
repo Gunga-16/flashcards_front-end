@@ -110,3 +110,16 @@ footer {
     font-family: "Arimo", sans-serif;
 }
 
+@media (min-width: 400px) {
+    .conteudo-cartao p {
+        font-size: 4vw;
+    }
+
+    .cartao {
+        flex-basis: calc(50% - 1rem);
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+}
