@@ -110,7 +110,7 @@ footer {
     font-family: "Arimo", sans-serif;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 800px) {
     .conteudo-cartao p {
         font-size: 4vw;
     }
