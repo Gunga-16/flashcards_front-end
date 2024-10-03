@@ -109,9 +109,7 @@ criaCartao('CSS', 'Texto', 'Como alterar a família da fonte?', 'Use a proprieda
 
 criaCartao('CSS', 'Background', 'Como definir uma cor de fundo?', 'Use a propriedade "background-color".', 'Exemplo: body { background-color: #f0f0f0; }');
 
-
 criaCartao('CSS', 'Background', 'Como definir uma imagem de fundo?', 'Use a propriedade "background-image".', 'Exemplo: body { background-image: url("imagem.jpg"); }');
-criaCartao('CSS', 'Background', 'Como repetir uma imagem de fundo?', 'Use a propriedade "background-repeat".', 'Exemplo: body { background-repeat: no-repeat; }');
 
 criaCartao('CSS', 'Layouts', 'O que é flexbox?', 'Flexbox é um layout de CSS que permite alinhar e distribuir espaço entre itens de um contêiner.', 'Exemplo: .container { display: flex; }');
 
