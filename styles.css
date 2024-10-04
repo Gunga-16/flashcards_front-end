@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2family=Bree+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bree+Serif&display=swap');
 
 
 * {
@@ -23,6 +23,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: "Arimo", sans-serif;
 }
 
 #container {
@@ -40,7 +41,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    font-family: "Bree", sans-serif;
+    
     font-weight: 700;
     border-radius: 10px;
 
@@ -107,7 +108,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 20px;
-    font-family: "Arimo", sans-serif;
+    font-family: "Bree", serif;
 }
 
 @media (max-width: 800px) {
